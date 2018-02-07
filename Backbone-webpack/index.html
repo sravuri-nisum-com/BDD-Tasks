@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Backbone-webpack</title>
+  </head>
+
+  <body>
+  
+    <h1>Backbone-app</h1>
+    
+   
+    <form id="addPerson">
+            <input type="text" placeholder="Name of the person"><br>
+            <input type="text" placeholder="Occupation of the person"><br>
+            <input type="number" placeholder="Age"><br>
+            <input type="submit" value="Add Person">
+    </form>
+
+
+    <script id="personTemplate" type="text/template">
+
+    <span><strong><%= name %></strong> (<%= age %>) - <%= occupation %></span> 
+    <button class="edit">Edit</button>
+    <button class="delete">Delete</button>
+
+    </script>
+
+
+
+    <script src="build/app.js"></script>
+  </body>
+</html>
