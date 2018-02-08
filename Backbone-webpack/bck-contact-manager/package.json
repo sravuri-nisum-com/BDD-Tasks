@@ -1,0 +1,36 @@
+{
+  "name": "backbone-contact-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "backbone": "^1.3.3",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sravuri-nisum-com/backbone-contact-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sravuri-nisum-com/backbone-contact-manager/issues"
+  },
+  "homepage": "https://github.com/sravuri-nisum-com/backbone-contact-manager#readme"
+}
